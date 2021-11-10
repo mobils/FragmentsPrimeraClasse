@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
                 FragmentManager fm = getSupportFragmentManager();
 
+
                 if (fm.findFragmentById(R.id.contenidor1) == null) {  //OPCIONAL Si es null està buit
                     Fragment1 fragment1_clase = new Fragment1();
 
